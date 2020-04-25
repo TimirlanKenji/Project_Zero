@@ -1584,3 +1584,539 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.25-21.09.35:269][ 82]LogFileHelpers: Saving map 'Level_01' took 0.087
 [2020.04.25-21.09.35:278][ 82]AssetCheck: New page: Asset Save: Level_01
 [2020.04.25-21.09.35:278][ 82]LogContentValidation: Display: Validating World /Game/Maps/Level_01.Level_01
+[2020.04.25-21.33.02:890][269]LogMaterial: Display: Missing cached shader map for material M_Pickup_Health, compiling. 
+[2020.04.25-21.33.02:999][269]LogMaterial: Display: Missing cached shader map for material M_Pickup_Cupcake, compiling. 
+[2020.04.25-21.33.03:012][269]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 33
+[2020.04.25-21.33.03:012][269]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2020.04.25-21.33.04:928][486]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 28
+[2020.04.25-21.33.06:764][703]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.04.25-21.33.08:642][908]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.04.25-21.33.09:536][ 13]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.04.25-21.33.10:106][ 76]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.04.25-21.33.11:457][222]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.25-21.33.11:473][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.25-21.33.11:473][222]PIE: New page: PIE session: Level_01 (26 апр. 2020 г., 03:33:11)
+[2020.04.25-21.33.11:473][222]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.33.11:484][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011104s)
+[2020.04.25-21.33.11:485][222]LogAIModule: Creating AISystem for world Level_01
+[2020.04.25-21.33.11:485][222]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2020.04.25-21.33.11:485][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.012119s)
+[2020.04.25-21.33.11:524][222]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.04.25-21.33.11:531][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.25-21.33.11:531][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.25-21.33.11:531][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.25-21.33.11:531][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.25-21.33.11:531][222]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.25-21.33.11:531][222]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.25-21.33.11:531][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.25-21.33.11:531][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.25-21.33.11:532][222]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.25-21.33.11:532][222]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.25-21.33.11:543][222]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.25-21.33.11:543][222]LogAudioMixer: Display: Name: Динамики (Realtek(R) Audio)
+[2020.04.25-21.33.11:543][222]LogAudioMixer: Display: Is Default: Yes
+[2020.04.25-21.33.11:543][222]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.25-21.33.11:543][222]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.25-21.33.11:543][222]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.25-21.33.11:543][222]LogAudioMixer: Display: Channel Order:
+[2020.04.25-21.33.11:543][222]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.25-21.33.11:543][222]LogAudioMixer: Display: 1: FrontRight
+[2020.04.25-21.33.11:559][222]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.04.25-21.33.11:560][222]LogInit: FAudioDevice initialized.
+[2020.04.25-21.33.11:564][222]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2020.04.25-21.33.11:566][222]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2020.04.26-00.33.11
+[2020.04.25-21.33.11:566][222]LogWorld: Bringing up level for play took: 0.001718
+[2020.04.25-21.33.11:566][222]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.04.25-21.33.11:569][222]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0,221
+[2020.04.25-21.33.14:581][581]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake_2] You got a cupcake!
+[2020.04.25-21.33.16:223][778]LogBlueprintUserMessages: [BP_BaseCharacter_C_0] 90.0
+[2020.04.25-21.33.16:231][779]LogBlueprintUserMessages: [BP_BaseCharacter_C_0] 80.0
+[2020.04.25-21.33.16:681][833]LogBlueprintUserMessages: [BP_BaseCharacter_C_0] 70.0
+[2020.04.25-21.33.19:748][201]LogBlueprintUserMessages: [BP_BaseCharacter_C_0] 60.0
+[2020.04.25-21.33.24:283][745]LogBlueprintUserMessages: [BP_BaseCharacter_C_0] 50.0
+[2020.04.25-21.33.27:233][ 99]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.33.27:233][ 99]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.33.27:233][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.33.27:233][ 99]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.33.27:233][ 99]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.33.27:233][ 99]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2020.04.25-21.33.27:233][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.33.27:241][ 99]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.25-21.33.27:245][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.33.27:272][ 99]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.33.27:275][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.33.27:278][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.04.25-21.33.27:336][104]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.04.25-21.33.33:091][765]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.BP_Pickup_Child_Cupcake
+[2020.04.25-21.33.40:054][544]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'AActor::K2_DestroyActor' [Не найден указанный модуль.]
+[2020.04.25-21.33.40:525][567]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'AActor::K2_DestroyActor' [Элемент не найден.]
+[2020.04.25-21.34.11:006][732]BlueprintLog: New page: Compile BP_Pickup_Child_Cupcake
+[2020.04.25-21.34.11:200][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.04.25-21.34.11:603][770]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/BP_Pickup_Child_Cupcake88ADAC024930CABEFA5BBF996BCCC966.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.uasset'
+[2020.04.25-21.34.11:620][770]AssetCheck: New page: Asset Save: BP_Pickup_Child_Cupcake
+[2020.04.25-21.34.11:620][770]LogContentValidation: Display: Validating Blueprint /Game/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.BP_Pickup_Child_Cupcake
+[2020.04.25-21.36.00:403][106]BlueprintLog: New page: Compile BP_Pickup_Child_Cupcake
+[2020.04.25-21.36.00:602][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.04.25-21.36.01:012][147]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/BP_Pickup_Child_CupcakeCC9E98904F5195E62E52B78BF4B5E710.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.uasset'
+[2020.04.25-21.36.01:026][147]AssetCheck: New page: Asset Save: BP_Pickup_Child_Cupcake
+[2020.04.25-21.36.01:026][147]LogContentValidation: Display: Validating Blueprint /Game/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.BP_Pickup_Child_Cupcake
+[2020.04.25-21.36.34:747][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.04.25-21.36.34:772][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_01" FILE="../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Maps/Level_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.25-21.36.34:803][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.04.25-21.36.34:859][161]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/Level_01EFBFB4F3497B9A0CD4CA45A08C8127DC.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Maps/Level_01.umap'
+[2020.04.25-21.36.34:894][161]LogFileHelpers: Saving map 'Level_01' took 0.121
+[2020.04.25-21.36.34:904][161]AssetCheck: New page: Asset Save: Level_01
+[2020.04.25-21.36.34:904][161]LogContentValidation: Display: Validating World /Game/Maps/Level_01.Level_01
+[2020.04.25-21.36.36:727][377]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.25-21.36.36:743][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.25-21.36.36:743][377]PIE: New page: PIE session: Level_01 (26 апр. 2020 г., 03:36:36)
+[2020.04.25-21.36.36:743][377]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.36.36:754][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010602s)
+[2020.04.25-21.36.36:756][377]LogAIModule: Creating AISystem for world Level_01
+[2020.04.25-21.36.36:756][377]LogPlayLevel: PIE: World Init took: (0.001914s)
+[2020.04.25-21.36.36:756][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.012662s)
+[2020.04.25-21.36.36:789][377]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.04.25-21.36.36:790][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.25-21.36.36:790][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.25-21.36.36:790][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.25-21.36.36:790][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.25-21.36.36:790][377]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.25-21.36.36:790][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.25-21.36.36:790][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.25-21.36.36:790][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.25-21.36.36:791][377]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.25-21.36.36:791][377]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.25-21.36.36:803][377]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.25-21.36.36:803][377]LogAudioMixer: Display: Name: Динамики (Realtek(R) Audio)
+[2020.04.25-21.36.36:803][377]LogAudioMixer: Display: Is Default: Yes
+[2020.04.25-21.36.36:803][377]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.25-21.36.36:803][377]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.25-21.36.36:803][377]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.25-21.36.36:803][377]LogAudioMixer: Display: Channel Order:
+[2020.04.25-21.36.36:803][377]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.25-21.36.36:803][377]LogAudioMixer: Display: 1: FrontRight
+[2020.04.25-21.36.36:818][377]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.04.25-21.36.36:819][377]LogInit: FAudioDevice initialized.
+[2020.04.25-21.36.36:824][377]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2020.04.25-21.36.36:826][377]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2020.04.26-00.36.36
+[2020.04.25-21.36.36:826][377]LogWorld: Bringing up level for play took: 0.001708
+[2020.04.25-21.36.36:826][377]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.04.25-21.36.36:829][377]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 -0,518
+[2020.04.25-21.36.38:419][566]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake_2] You got a cupcake!
+[2020.04.25-21.36.46:057][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.36.46:057][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.36.46:058][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.36.46:058][481]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.36.46:058][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.36.46:058][481]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2020.04.25-21.36.46:058][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.36.46:065][481]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.25-21.36.46:069][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.36.46:099][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.36.46:102][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.36.46:105][481]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.04.25-21.36.46:157][487]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.04.25-21.36.57:356][712]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.25-21.36.57:371][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.25-21.36.57:371][712]PIE: New page: PIE session: Level_01 (26 апр. 2020 г., 03:36:57)
+[2020.04.25-21.36.57:371][712]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.36.57:382][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010906s)
+[2020.04.25-21.36.57:383][712]LogAIModule: Creating AISystem for world Level_01
+[2020.04.25-21.36.57:383][712]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2020.04.25-21.36.57:383][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.011902s)
+[2020.04.25-21.36.57:416][712]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.04.25-21.36.57:418][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.25-21.36.57:418][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.25-21.36.57:418][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.25-21.36.57:418][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.25-21.36.57:418][712]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.25-21.36.57:418][712]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.25-21.36.57:418][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.25-21.36.57:418][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.25-21.36.57:418][712]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.25-21.36.57:418][712]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.25-21.36.57:429][712]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.25-21.36.57:429][712]LogAudioMixer: Display: Name: Динамики (Realtek(R) Audio)
+[2020.04.25-21.36.57:429][712]LogAudioMixer: Display: Is Default: Yes
+[2020.04.25-21.36.57:429][712]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.25-21.36.57:429][712]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.25-21.36.57:429][712]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.25-21.36.57:429][712]LogAudioMixer: Display: Channel Order:
+[2020.04.25-21.36.57:429][712]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.25-21.36.57:429][712]LogAudioMixer: Display: 1: FrontRight
+[2020.04.25-21.36.57:444][712]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.04.25-21.36.57:445][712]LogInit: FAudioDevice initialized.
+[2020.04.25-21.36.57:455][712]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2020.04.25-21.36.57:457][712]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2020.04.26-00.36.57
+[2020.04.25-21.36.57:457][712]LogWorld: Bringing up level for play took: 0.001766
+[2020.04.25-21.36.57:457][712]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.04.25-21.36.57:460][712]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0,113
+[2020.04.25-21.37.01:810][232]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake_2] You got a cupcake!
+[2020.04.25-21.37.04:436][547]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake2_5] You got a cupcake!
+[2020.04.25-21.37.06:786][829]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake3_8] You got a cupcake!
+[2020.04.25-21.37.10:839][312]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.37.10:839][312]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.37.10:839][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.37.10:839][312]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.37.10:839][312]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.37.10:840][312]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2020.04.25-21.37.10:840][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.37.10:851][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.25-21.37.10:854][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.37.10:881][312]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.37.10:884][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.37.10:887][312]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.04.25-21.37.10:940][316]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.04.25-21.37.12:043][445]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.25-21.37.12:058][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.25-21.37.12:058][445]PIE: New page: PIE session: Level_01 (26 апр. 2020 г., 03:37:12)
+[2020.04.25-21.37.12:058][445]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.37.12:069][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010714s)
+[2020.04.25-21.37.12:069][445]LogAIModule: Creating AISystem for world Level_01
+[2020.04.25-21.37.12:069][445]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2020.04.25-21.37.12:070][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.011692s)
+[2020.04.25-21.37.12:101][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.04.25-21.37.12:102][445]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.25-21.37.12:102][445]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.25-21.37.12:102][445]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.25-21.37.12:102][445]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.25-21.37.12:102][445]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.25-21.37.12:102][445]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.25-21.37.12:102][445]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.25-21.37.12:102][445]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.25-21.37.12:102][445]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.25-21.37.12:102][445]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.25-21.37.12:113][445]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.25-21.37.12:113][445]LogAudioMixer: Display: Name: Динамики (Realtek(R) Audio)
+[2020.04.25-21.37.12:113][445]LogAudioMixer: Display: Is Default: Yes
+[2020.04.25-21.37.12:113][445]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.25-21.37.12:113][445]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.25-21.37.12:113][445]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.25-21.37.12:113][445]LogAudioMixer: Display: Channel Order:
+[2020.04.25-21.37.12:113][445]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.25-21.37.12:113][445]LogAudioMixer: Display: 1: FrontRight
+[2020.04.25-21.37.12:129][445]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.04.25-21.37.12:130][445]LogInit: FAudioDevice initialized.
+[2020.04.25-21.37.12:133][445]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2020.04.25-21.37.12:136][445]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2020.04.26-00.37.12
+[2020.04.25-21.37.12:136][445]LogWorld: Bringing up level for play took: 0.001740
+[2020.04.25-21.37.12:136][445]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.04.25-21.37.12:138][445]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0,792
+[2020.04.25-21.37.15:139][803]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake_2] You got a cupcake!
+[2020.04.25-21.37.19:233][294]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake2_5] You got a cupcake!
+[2020.04.25-21.37.20:333][426]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake3_8] You got a cupcake!
+[2020.04.25-21.37.21:384][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.37.21:386][552]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.25-21.37.21:407][552]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.25-21.37.21:407][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.37.21:407][552]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.37.21:407][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.37.21:407][552]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2020.04.25-21.37.21:408][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.37.21:414][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.25-21.37.21:418][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.37.21:446][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.37.21:449][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.37.21:451][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.04.25-21.37.21:486][556]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.04.25-21.37.55:008][859]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.04.25-21.37.55:008][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.38.03:392][826]BlueprintLog: New page: Compile BP_Pickup_Child_Cupcake
+[2020.04.25-21.38.03:588][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.04.25-21.38.04:027][870]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/BP_Pickup_Child_Cupcake976099EB45002B6F7D8786ACD3691CC4.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.uasset'
+[2020.04.25-21.38.04:043][870]AssetCheck: New page: Asset Save: BP_Pickup_Child_Cupcake
+[2020.04.25-21.38.04:043][870]LogContentValidation: Display: Validating Blueprint /Game/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.BP_Pickup_Child_Cupcake
+[2020.04.25-21.38.06:001][ 84]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.25-21.38.06:017][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.25-21.38.06:018][ 84]PIE: New page: PIE session: Level_01 (26 апр. 2020 г., 03:38:06)
+[2020.04.25-21.38.06:018][ 84]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.38.06:028][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010516s)
+[2020.04.25-21.38.06:029][ 84]LogAIModule: Creating AISystem for world Level_01
+[2020.04.25-21.38.06:029][ 84]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2020.04.25-21.38.06:029][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.011503s)
+[2020.04.25-21.38.06:057][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.04.25-21.38.06:058][ 84]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.25-21.38.06:058][ 84]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.25-21.38.06:058][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.25-21.38.06:058][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.25-21.38.06:058][ 84]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.25-21.38.06:058][ 84]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.25-21.38.06:058][ 84]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.25-21.38.06:058][ 84]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.25-21.38.06:058][ 84]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.25-21.38.06:058][ 84]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.25-21.38.06:069][ 84]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.25-21.38.06:069][ 84]LogAudioMixer: Display: Name: Динамики (Realtek(R) Audio)
+[2020.04.25-21.38.06:069][ 84]LogAudioMixer: Display: Is Default: Yes
+[2020.04.25-21.38.06:069][ 84]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.25-21.38.06:069][ 84]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.25-21.38.06:069][ 84]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.25-21.38.06:069][ 84]LogAudioMixer: Display: Channel Order:
+[2020.04.25-21.38.06:069][ 84]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.25-21.38.06:069][ 84]LogAudioMixer: Display: 1: FrontRight
+[2020.04.25-21.38.06:084][ 84]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.04.25-21.38.06:085][ 84]LogInit: FAudioDevice initialized.
+[2020.04.25-21.38.06:089][ 84]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2020.04.25-21.38.06:091][ 84]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2020.04.26-00.38.06
+[2020.04.25-21.38.06:091][ 84]LogWorld: Bringing up level for play took: 0.001800
+[2020.04.25-21.38.06:091][ 84]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.04.25-21.38.06:094][ 84]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0,747
+[2020.04.25-21.38.07:550][256]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake_2] You got a cupcake!
+[2020.04.25-21.38.20:752][840]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.38.20:757][840]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.25-21.38.20:777][840]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.25-21.38.20:777][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.38.20:778][840]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.38.20:778][840]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.38.20:778][840]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2020.04.25-21.38.20:780][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.38.20:798][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.25-21.38.20:803][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.38.20:829][840]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.38.20:832][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.38.20:834][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.04.25-21.38.20:878][841]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.04.25-21.39.29:781][327]BlueprintLog: New page: Compile BP_Pickup_Child_Cupcake
+[2020.04.25-21.39.29:977][327]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.04.25-21.39.30:350][361]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/BP_Pickup_Child_CupcakeCE0C47EF47C86024E6AC1BB2EF058EB3.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.uasset'
+[2020.04.25-21.39.30:363][361]AssetCheck: New page: Asset Save: BP_Pickup_Child_Cupcake
+[2020.04.25-21.39.30:363][361]LogContentValidation: Display: Validating Blueprint /Game/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.BP_Pickup_Child_Cupcake
+[2020.04.25-21.41.22:365][528]BlueprintLog: New page: Compile BP_Pickup_Child_Cupcake
+[2020.04.25-21.41.22:564][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.04.25-21.41.22:978][568]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/BP_Pickup_Child_CupcakeC1CBE68C42ED5B59B37C80BA359E1CD3.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.uasset'
+[2020.04.25-21.41.22:990][568]AssetCheck: New page: Asset Save: BP_Pickup_Child_Cupcake
+[2020.04.25-21.41.22:990][568]LogContentValidation: Display: Validating Blueprint /Game/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.BP_Pickup_Child_Cupcake
+[2020.04.25-21.41.23:674][643]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.25-21.41.23:690][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.25-21.41.23:691][643]PIE: New page: PIE session: Level_01 (26 апр. 2020 г., 03:41:23)
+[2020.04.25-21.41.23:691][643]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.41.23:701][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010712s)
+[2020.04.25-21.41.23:702][643]LogAIModule: Creating AISystem for world Level_01
+[2020.04.25-21.41.23:702][643]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2020.04.25-21.41.23:702][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.011735s)
+[2020.04.25-21.41.23:730][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.04.25-21.41.23:731][643]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.25-21.41.23:731][643]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.25-21.41.23:731][643]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.25-21.41.23:731][643]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.25-21.41.23:731][643]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.25-21.41.23:731][643]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.25-21.41.23:731][643]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.25-21.41.23:731][643]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.25-21.41.23:732][643]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.25-21.41.23:732][643]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.25-21.41.23:743][643]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.25-21.41.23:743][643]LogAudioMixer: Display: Name: Динамики (Realtek(R) Audio)
+[2020.04.25-21.41.23:743][643]LogAudioMixer: Display: Is Default: Yes
+[2020.04.25-21.41.23:743][643]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.25-21.41.23:743][643]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.25-21.41.23:743][643]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.25-21.41.23:743][643]LogAudioMixer: Display: Channel Order:
+[2020.04.25-21.41.23:743][643]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.25-21.41.23:743][643]LogAudioMixer: Display: 1: FrontRight
+[2020.04.25-21.41.23:759][643]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.04.25-21.41.23:760][643]LogInit: FAudioDevice initialized.
+[2020.04.25-21.41.23:799][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.41.23:800][643]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2020.04.25-21.41.23:802][643]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2020.04.26-00.41.23
+[2020.04.25-21.41.23:802][643]LogWorld: Bringing up level for play took: 0.002065
+[2020.04.25-21.41.23:802][643]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.04.25-21.41.23:806][643]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0,458
+[2020.04.25-21.41.25:520][817]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake_2] You got a cupcake!
+[2020.04.25-21.41.31:968][591]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake2_5] You got a cupcake!
+[2020.04.25-21.41.32:902][703]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake3_8] You got a cupcake!
+[2020.04.25-21.41.34:920][945]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.41.34:920][945]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.41.34:920][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.41.34:920][945]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.41.34:934][945]LogSlate: Window 'Zero Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.25-21.41.34:938][945]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.41.34:938][945]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2020.04.25-21.41.34:939][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.41.34:949][945]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.25-21.41.34:953][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.41.34:981][945]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.41.34:987][945]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.04.25-21.41.35:140][947]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.04.25-21.43.06:889][603]BlueprintLog: New page: Compile BP_Pickup_Child_Cupcake
+[2020.04.25-21.43.07:082][603]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.04.25-21.43.08:247][727]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.25-21.43.08:263][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.25-21.43.08:264][727]PIE: New page: PIE session: Level_01 (26 апр. 2020 г., 03:43:08)
+[2020.04.25-21.43.08:264][727]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.43.08:275][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011332s)
+[2020.04.25-21.43.08:276][727]LogAIModule: Creating AISystem for world Level_01
+[2020.04.25-21.43.08:276][727]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2020.04.25-21.43.08:276][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.012251s)
+[2020.04.25-21.43.08:307][727]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.04.25-21.43.08:308][727]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.25-21.43.08:308][727]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.25-21.43.08:308][727]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.25-21.43.08:308][727]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.25-21.43.08:308][727]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.25-21.43.08:308][727]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.25-21.43.08:308][727]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.25-21.43.08:308][727]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.25-21.43.08:308][727]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.25-21.43.08:308][727]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.25-21.43.08:319][727]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.25-21.43.08:320][727]LogAudioMixer: Display: Name: Динамики (Realtek(R) Audio)
+[2020.04.25-21.43.08:320][727]LogAudioMixer: Display: Is Default: Yes
+[2020.04.25-21.43.08:320][727]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.25-21.43.08:320][727]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.25-21.43.08:320][727]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.25-21.43.08:320][727]LogAudioMixer: Display: Channel Order:
+[2020.04.25-21.43.08:320][727]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.25-21.43.08:320][727]LogAudioMixer: Display: 1: FrontRight
+[2020.04.25-21.43.08:334][727]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.04.25-21.43.08:336][727]LogInit: FAudioDevice initialized.
+[2020.04.25-21.43.08:382][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.43.08:382][727]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2020.04.25-21.43.08:384][727]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2020.04.26-00.43.08
+[2020.04.25-21.43.08:384][727]LogWorld: Bringing up level for play took: 0.002072
+[2020.04.25-21.43.08:385][727]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.04.25-21.43.08:388][727]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 1,041
+[2020.04.25-21.43.10:405][944]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake_2] You got a cupcake!
+[2020.04.25-21.43.13:931][367]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.43.13:946][367]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.25-21.43.13:966][367]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.25-21.43.13:966][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.43.13:966][367]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.43.13:981][367]LogSlate: Window 'Zero Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.25-21.43.13:985][367]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.43.13:986][367]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2020.04.25-21.43.13:986][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.43.13:995][367]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.25-21.43.13:999][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.43.14:026][367]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.43.14:032][367]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.04.25-21.43.14:048][368]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.04.25-21.43.23:860][543]BlueprintLog: New page: Compile BP_Pickup_Child_Cupcake
+[2020.04.25-21.43.24:053][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.04.25-21.43.24:691][614]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.04.25-21.43.24:718][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_01" FILE="../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Maps/Level_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.25-21.43.24:746][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.04.25-21.43.24:784][614]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/Level_01F6525FF747F8A9BDCA900885F73FF1EF.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Maps/Level_01.umap'
+[2020.04.25-21.43.24:817][614]LogFileHelpers: Saving map 'Level_01' took 0.099
+[2020.04.25-21.43.24:854][614]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/BP_Pickup_Child_CupcakeED705ABD476EC39ED7B6DAB334AE163F.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.uasset'
+[2020.04.25-21.43.24:870][614]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.25-21.43.24:870][614]LogContentValidation: Display: Validating World /Game/Maps/Level_01.Level_01
+[2020.04.25-21.43.24:870][614]LogContentValidation: Display: Validating Blueprint /Game/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.BP_Pickup_Child_Cupcake
+[2020.04.25-21.43.27:232][893]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.25-21.43.27:248][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.25-21.43.27:248][893]PIE: New page: PIE session: Level_01 (26 апр. 2020 г., 03:43:27)
+[2020.04.25-21.43.27:248][893]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.43.27:258][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010616s)
+[2020.04.25-21.43.27:259][893]LogAIModule: Creating AISystem for world Level_01
+[2020.04.25-21.43.27:259][893]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2020.04.25-21.43.27:259][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.011581s)
+[2020.04.25-21.43.27:288][893]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.04.25-21.43.27:289][893]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.25-21.43.27:289][893]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.25-21.43.27:289][893]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.25-21.43.27:289][893]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.25-21.43.27:289][893]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.25-21.43.27:289][893]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.25-21.43.27:289][893]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.25-21.43.27:289][893]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.25-21.43.27:289][893]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.25-21.43.27:289][893]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.25-21.43.27:299][893]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.25-21.43.27:299][893]LogAudioMixer: Display: Name: Динамики (Realtek(R) Audio)
+[2020.04.25-21.43.27:299][893]LogAudioMixer: Display: Is Default: Yes
+[2020.04.25-21.43.27:299][893]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.25-21.43.27:299][893]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.25-21.43.27:299][893]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.25-21.43.27:299][893]LogAudioMixer: Display: Channel Order:
+[2020.04.25-21.43.27:299][893]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.25-21.43.27:299][893]LogAudioMixer: Display: 1: FrontRight
+[2020.04.25-21.43.27:315][893]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.04.25-21.43.27:316][893]LogInit: FAudioDevice initialized.
+[2020.04.25-21.43.27:364][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.43.27:364][893]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2020.04.25-21.43.27:367][893]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2020.04.26-00.43.27
+[2020.04.25-21.43.27:367][893]LogWorld: Bringing up level for play took: 0.002123
+[2020.04.25-21.43.27:367][893]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2020.04.25-21.43.27:370][893]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0,024
+[2020.04.25-21.43.28:829][ 47]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake_2] You got a cupcake!
+[2020.04.25-21.44.05:717][470]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.44.05:746][470]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.25-21.44.05:767][470]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.25-21.44.05:767][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.44.05:767][470]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.44.05:786][470]LogSlate: Window 'Zero Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.25-21.44.05:790][470]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.44.05:791][470]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2020.04.25-21.44.05:791][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.44.05:800][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.25-21.44.05:804][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.44.05:831][470]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.44.05:837][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.04.25-21.44.05:854][471]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2020.04.25-21.44.15:770][646]BlueprintLog: New page: Compile BP_Pickup_Child_Cupcake
+[2020.04.25-21.44.15:965][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.04.25-21.44.16:535][709]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.04.25-21.44.16:549][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_01" FILE="../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Maps/Level_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.25-21.44.16:578][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.04.25-21.44.16:609][709]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/Level_01C3202A264A99066E9384009557CD5FDF.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Maps/Level_01.umap'
+[2020.04.25-21.44.16:641][709]LogFileHelpers: Saving map 'Level_01' took 0.092
+[2020.04.25-21.44.16:677][709]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/BP_Pickup_Child_CupcakeDCAAD48C4906627B1404CD89CEF1F945.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.uasset'
+[2020.04.25-21.44.16:694][709]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.25-21.44.16:694][709]LogContentValidation: Display: Validating World /Game/Maps/Level_01.Level_01
+[2020.04.25-21.44.16:694][709]LogContentValidation: Display: Validating Blueprint /Game/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.BP_Pickup_Child_Cupcake
+[2020.04.25-21.44.17:544][808]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.25-21.44.17:560][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.25-21.44.17:561][808]PIE: New page: PIE session: Level_01 (26 апр. 2020 г., 03:44:17)
+[2020.04.25-21.44.17:561][808]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.44.17:573][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011777s)
+[2020.04.25-21.44.17:574][808]LogAIModule: Creating AISystem for world Level_01
+[2020.04.25-21.44.17:574][808]LogPlayLevel: PIE: World Init took: (0.001363s)
+[2020.04.25-21.44.17:574][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_01.Level_01 to /Game/Maps/UEDPIE_0_Level_01.Level_01 (0.013308s)
+[2020.04.25-21.44.17:603][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.04.25-21.44.17:604][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.25-21.44.17:604][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.25-21.44.17:604][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.25-21.44.17:604][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.25-21.44.17:604][808]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.25-21.44.17:604][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.25-21.44.17:604][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.25-21.44.17:604][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.25-21.44.17:604][808]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.25-21.44.17:604][808]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.25-21.44.17:615][808]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.25-21.44.17:615][808]LogAudioMixer: Display: Name: Динамики (Realtek(R) Audio)
+[2020.04.25-21.44.17:615][808]LogAudioMixer: Display: Is Default: Yes
+[2020.04.25-21.44.17:615][808]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.25-21.44.17:615][808]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.25-21.44.17:615][808]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.25-21.44.17:615][808]LogAudioMixer: Display: Channel Order:
+[2020.04.25-21.44.17:615][808]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.25-21.44.17:615][808]LogAudioMixer: Display: 1: FrontRight
+[2020.04.25-21.44.17:630][808]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.04.25-21.44.17:631][808]LogInit: FAudioDevice initialized.
+[2020.04.25-21.44.17:680][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.44.17:680][808]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2020.04.25-21.44.17:683][808]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2020.04.26-00.44.17
+[2020.04.25-21.44.17:683][808]LogWorld: Bringing up level for play took: 0.001984
+[2020.04.25-21.44.17:683][808]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2020.04.25-21.44.17:687][808]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_01 0,34
+[2020.04.25-21.44.19:138][954]LogBlueprintUserMessages: [BP_Pickup_Child_Cupcake_2] You got a cupcake!
+[2020.04.25-21.44.23:539][479]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.44.23:567][479]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.25-21.44.23:587][479]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.25-21.44.23:588][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.25-21.44.23:588][479]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_01
+[2020.04.25-21.44.23:619][479]LogSlate: Window 'Zero Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.25-21.44.23:625][479]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.44.23:625][479]LogWorld: UWorld::CleanupWorld for Level_01, bSessionEnded=true, bCleanupResources=true
+[2020.04.25-21.44.23:625][479]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.44.23:631][479]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.25-21.44.23:635][479]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.25-21.44.23:662][479]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.25-21.44.23:668][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.04.25-21.44.23:684][480]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2020.04.25-21.44.30:470][250]BlueprintLog: New page: Compile BP_Pickup_Child_Cupcake
+[2020.04.25-21.44.30:662][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.04.25-21.44.31:061][289]LogSavePackage: Moving '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Saved/BP_Pickup_Child_CupcakeB718C43543113FE7DA2B40B00B6857F4.tmp' to '../../../../../Development/GitKraken Repo/1.ProjectZero/Project_Zero/Zero/Content/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.uasset'
+[2020.04.25-21.44.31:072][289]AssetCheck: New page: Asset Save: BP_Pickup_Child_Cupcake
+[2020.04.25-21.44.31:072][289]LogContentValidation: Display: Validating Blueprint /Game/Fundamentals/Blueprints/EssentialConcepts/FinishedAssets/Blueprints/BP_Pickup_Child_Cupcake.BP_Pickup_Child_Cupcake
